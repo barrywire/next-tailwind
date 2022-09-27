@@ -14,7 +14,7 @@ export default function Home() {
 				<div className='container'>
 					<div className='flex items-center space-between'>
 						<div className='col'>
-							<p className=''>Next Basic Frontend</p>
+							<h1 className='text-3xl font-bold underline'>Next Basic Frontend</h1>
 						</div>
 
 						<div className='col'>
