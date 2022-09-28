@@ -1,25 +1,26 @@
 // Next imports
 import Head from 'next/head';
 
-export default function Home() {
+export default function Home()
+{
 	return (
-		<div className='bg-red'>
+		<>
 			<Head>
 				<title>Next Basic Frontend</title>
 				<meta name='description' content='Custom nextjs boilerplate' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
-			<main>
-				<div className='container'>
-					<div className='flex items-center space-between'>
+			<main className='container mx-auto bg-gray-50'>
+				<div className='container mx-auto px-4'>
+					<div className='flex flex-row items-center justify-between'>
 						<div className='col'>
-							<h1 className='text-3xl font-bold underline'>Next Basic Frontend</h1>
+							<h1 className='text-3xl underline'>Next Basic Frontend</h1>
 						</div>
 
 						<div className='col'>
 							<p>
-								Created by: <a href='https://github.com/BMWire'>Barry Wire</a>
+								Created by: <a className='font-inter-tight text-blue-700' href='https://github.com/BMWire'>Barry Wire</a>
 							</p>
 						</div>
 					</div>
@@ -53,9 +54,9 @@ export default function Home() {
 				</div>
 			</main>
 
-			<footer>
-				<small className='text-muted'>A simple Nextjs boilerplate</small>
+			<footer className='container border border-black'>
+				<small className='mx-auto'>A simple Nextjs boilerplate</small>
 			</footer>
-		</div>
+		</>
 	);
 }
