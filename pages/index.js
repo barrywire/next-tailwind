@@ -20,7 +20,7 @@ export default function Home()
 
 						<div className='col'>
 							<p>
-								Created by: <a className='font-inter-tight text-blue-700' href='https://github.com/BMWire'>Barry Wire</a>
+								Created by: <a className='font-inter text-blue-700' href='https://github.com/BMWire'>Barry Wire</a>
 							</p>
 						</div>
 					</div>

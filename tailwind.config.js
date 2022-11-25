@@ -9,8 +9,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				'sans': ['"Inter"', ...defaultTheme.fontFamily.sans],
-				'inter-tight': ['"Inter Tight"'],
+				'sans': ['"Albert Sans"', ...defaultTheme.fontFamily.sans],
+				'inter': ['"Inter"'],
 			},
 		},
 	},
