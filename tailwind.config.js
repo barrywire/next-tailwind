@@ -9,8 +9,9 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				'sans': ['"Albert Sans"', ...defaultTheme.fontFamily.sans],
+				'sans': ['"Inter"', ...defaultTheme.fontFamily.sans],
 				'inter': ['"Inter"'],
+				'lexend': ['"Lexend"'],
 			},
 		},
 	},
