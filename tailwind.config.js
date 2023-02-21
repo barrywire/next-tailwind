@@ -11,6 +11,7 @@ module.exports = {
 			fontFamily: {
 				'sans': ['"Inter"', ...defaultTheme.fontFamily.sans],
 				'inter': ['"Inter"'],
+				'inter-tight': ['"Inter Tight"'],
 				'lexend': ['"Lexend"'],
 			},
 		},
