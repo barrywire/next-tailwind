@@ -1,6 +1,6 @@
-# Next Basic Frontend - Tailwind CSS
+# Next Tailwind
 
-This repository contains a basic template of a create-next-app that comes with the following packages out of the box:
+The repository is a nifty starter pack for all Next.js and Tailwind CSS projects. It contains the following packages and installations out of the box:
 
 1. [NextJs](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 2. [Tailwind CSS](https://tailwindcss.com/)
@@ -47,7 +47,7 @@ module.exports = {
 - Add a prepare step which enables husky to run the commitlint:
 
 ```bash
-npm pkg set scripts.prepare "husky install"
+npm config set scripts.prepare "husky install"
 ```
 
 - Run the prepare step:
