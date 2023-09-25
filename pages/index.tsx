@@ -3,6 +3,8 @@ import { useState } from 'react'
 
 // Next imports
 import Head from 'next/head'
+import Image from 'next/image';
+
 
 // Package imports
 import { Dialog } from '@headlessui/react'
@@ -67,7 +69,7 @@ export default function Home()
 						<div className="flex lg:flex-1">
 							<a href="#" className="-m-1.5 p-1.5">
 								<span className="sr-only">Your Company</span>
-								<img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+								<Image src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=600" alt="" width={32} height={32} />
 							</a>
 						</div>
 						<div className="flex lg:hidden">
@@ -94,11 +96,12 @@ export default function Home()
 						</div>
 					</nav>
 					<Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
-						<Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+						<Dialog.Panel onFocus={() => true} className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
+
 							<div className="flex items-center justify-between">
 								<a href="#" className="-m-1.5 p-1.5">
 									<span className="sr-only">Your Company</span>
-									<img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+									<Image className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
 								</a>
 								<button
 									type="button"
